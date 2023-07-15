@@ -1,0 +1,29 @@
+{
+	"name": "my-portfolio",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2",
+		"postcss": "^8.4.24",
+		"postcss-load-config": "^4.0.1",
+		"autoprefixer": "^10.4.14",
+		"tailwindcss": "^3.3.2",
+		"@tailwindcss/typography": "^0.5.9"
+	},
+	"type": "module",
+	"dependencies": {
+		"konsta": "^2.0.0"
+	}
+}
