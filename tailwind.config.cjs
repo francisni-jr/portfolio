@@ -1,23 +1,27 @@
 const typography = require('@tailwindcss/typography');
-const konstaConfig = require('konsta/config')
+const rippleui = require('rippleui');
 
-module.exports = konstaConfig({
+module.exports = ({
   content: ['./src/**/*.{html,js,svelte,ts}'],
+  rippleui: {
+    defaultStyle: false,
+  },
 	theme: {
 	  colors: {
-      'main': '#4B4237',
-      'blocks': '#D5A021',
-      'action': '#EDE7D9',
-      'success': '#EAF4D3',
-      'error': '#C35831',
-      'warning': '#FFE94E',
-      'onmain': "#D5A021",
-      'onblocks': "#4B4237",
+      'is-main': '#6E44FF',
+      'is-block': '#EFD9CE',
+      'is-action': '#FFDD00',
+      'is-success': '#20C9A2',
+      'is-error': '#D20F46',
+      'is-warn': '#D95030',
+      'onmain': "#F8F32B",
+      'onblock': "#13262B",
+      'onaction': "#20C9A2",
     },
     fontFamily: {
-      header: ['Graphik', 'monospace'],
-      general: ['Merriweather', 'serif'],
-      highlight: ["serif"],
+      header: ['Delius Unicase', 'Serif'],
+      general: ['Neucha', 'cursive'],
+      highlight: ["Rock Salt"],
     },
     spacing: {
       px: '1px',
@@ -27,11 +31,14 @@ module.exports = konstaConfig({
       20: '3rem',
       25: '4.5rem',
       30: '6rem',
+      60: '12rem',
+      120: '24rem',
       vh: '100vh',
       vw: '100vw',
+      page: '300vh'
     },
 		extend: {}
 	},
 
-	plugins: [typography]
+	plugins: [typography, rippleui]
 });
