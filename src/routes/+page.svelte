@@ -1,6 +1,8 @@
 <script type="text/javascript" charset="utf-8">
-  
+  import HomeLoader from '../loaders/HomeLoader.svelte'
 </script>
+
+<HomeLoader  />
 
 <main class="bg-is-main px-60">
   <section class="h-vh ">
@@ -16,3 +18,9 @@
     
   </section>
 </main>
+
+<style type="text/css" media="all">
+
+
+
+</style>

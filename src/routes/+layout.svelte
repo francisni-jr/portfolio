@@ -1,6 +1,6 @@
 <script>
   import '../app.postcss';
-	import { ChevronDownIcon, HashIcon, Navigation2Icon } from 'svelte-feather-icons'
+	import { ChevronDownIcon, HashIcon, Navigation2Icon, GithubIcon, InstagramIcon } from 'svelte-feather-icons'
 	
 	
 </script>
@@ -28,11 +28,12 @@
       </div>
     </div>
     <nav class="popover">
-      <label class="popover-trigger w-30 flex items-center justify-center rounded-b-lg bg-is-action text-onaction mb-5 h-20"
+      <label
+        class="popover-trigger w-30 flex items-center justify-center rounded-b-lg bg-is-action text-onaction mb-5 h-20"
         tabindex="0">
         <ChevronDownIcon size="20" />
       </label>
-      <div class="popover-content bg-is-block p-5" tabindex="0">
+      <div class="popover-content md:mb-120 bg-is-block p-5" tabindex="0">
         <div style="z-index: -1;" class="popover-arrow mt-5 p-5 bg-is-block"></div>
         <div class="text-sm">
           <ul translate="no" class="pb-10 text-2xl p-5">
@@ -64,10 +65,10 @@
       </div>
     </nav>
   </header>
-  <aside class="fixed top-20 w-20 flex justify-center items-center flex flex-col gap-5 px-25">
-    <p class="fixed top-20 mx-20 mt-20 right-0 w-20 p-5 bg-is-action flex justify-center items-center rounded-l-lg">
+  <aside class="fixed top-20 w-25 flex justify-center items-center flex flex-col gap-5 px-25">
+    <p class="fixed top-20 mx-20 mt-20 right-0  py-5 w-25 bg-is-action flex justify-center items-center rounded-l-lg">
       <a class="text-onaction" href="/">
-        <Navigation2Icon/>
+        <Navigation2Icon />
       </a>
     </p>
     <span href="#" class=" text-sm">/</span>
@@ -96,8 +97,41 @@
         </a>
         <span href="#" class="text-sm">My Experience</span>
       </li>
-
+      
     </ol>
   </aside>
   <slot />
+  <footer class="p-5 bg-is-main fixed bottom-0 right-0 flex flex-col justify-center items-center gap-5 border w-25 mx-20 border-yellow ">
+    <a class="text-onaction" href="#">
+      <GithubIcon size="30" class="" />
+    </a>
+    <a class="text-onaction" href="#">
+      <InstagramIcon size="30" class="" />
+    </a>
+    <p class="flex justify-center items-center">
+      <details class="flex flex-col justify-center items-center" >
+        <summary class="text-sm">
+          &copy
+        </summary>
+        <div class="flex flex-col justify-center items-center my-5">
+        <span>F</span>
+        <span>R</span>
+        <span>A</span>
+        <span>N</span>
+        <span>C</span>
+        <span>I</span>
+        <span>S</span>
+        <span>N</span>
+        <span>Í</span>
+        </div>
+                <span class="mx-auto border-t w-full"></span>
+                <div class="flex flex-col justify-center items-center my-5">
+        <span>2</span>
+        <span>0</span>
+        <span>2</span>
+        <span>3</span>
+        </div>
+      </details>
+    </p>
+  </footer>
 </div>
