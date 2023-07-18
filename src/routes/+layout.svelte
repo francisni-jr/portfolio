@@ -110,7 +110,7 @@
     </a>
     <p class="flex justify-center items-center">
       <details class="flex flex-col justify-center items-center" >
-        <summary class="text-sm">
+        <summary>
           &copy
         </summary>
         <div class="flex flex-col justify-center items-center my-5">
