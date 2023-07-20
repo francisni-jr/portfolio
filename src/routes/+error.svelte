@@ -2,7 +2,7 @@
   import { ArrowDownIcon } from 'svelte-feather-icons'
 </script>
 
-<section class="bg-gradient-to-b from-is-main to-is-error h-full w-screen flex justify-between items-center text-4xl px-60 font-header flex-col ">
+<section class="bg-gradient-to-r from-is-main from-40% md:from-30% to-is-error h-full ml-5 md:ml-0 flex justify-between items-center text-4xl px-60 font-header w-full bg-blend-darken flex-col ">
   <h1 class="text-is-onmain flex flex-col text-center mt-60">
     <span class="flex gap-10 flex-col font-highlight">
       <b class="text-5xl" >4</b>

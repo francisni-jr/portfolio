@@ -1,4 +1,4 @@
-<section id="loader" class="shadow-b-lg bg-is-main absolute h-page top-0 w-screen flex items-start justify-center overflow-y-hidden z-40">
+<section id="loader" class="sshadow-b-lg bg-is-main absolute h-page top-0 w-screen flex items-start justify-center overflow-y-hidden z-40">
   <div class="skeleton h-full w-full flex items-start justify-center  ">
         
         <div class="loader-body mt-60 text-onblock p-10"></div>

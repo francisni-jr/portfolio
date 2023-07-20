@@ -37,7 +37,8 @@ module.exports = ({
       vw: '100vw',
       page: '300vh'
     },
-		extend: {}
+		extend: {
+		}
 	},
 
 	plugins: [typography, rippleui]
