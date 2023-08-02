@@ -74,13 +74,13 @@
         </a>
         <span class="text-sm text-center">My <br class="md:hidden" /> Experience</span>
       </li>
-      <li class="step">
-        <a href="/#aboutportfolio">
+            <li class="step">
+        <a href="/#myknowledge">
           <div class="step-circle w-auto hover:shadow-[0_0_40px_yellow] bg-is-action text-onaction">
             <HashIcon size="20" />
           </div>
         </a>
-        <span class="text-sm text-center">About <br class="md:hidden"/> this project</span>
+        <span class="text-sm text-center">My <br class="md:hidden" /> Knowledge</span>
       </li>
     </ol>
   </aside>
@@ -94,7 +94,7 @@
     </a>
     <p class="flex justify-center items-center">
       <details translate="no" class="flex flex-col justify-center items-center" >
-        <summary class="sm:hidden">
+        <summary>
           &copy
         </summary>
         <div class="flex flex-col justify-center items-center my-5">

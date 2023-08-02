@@ -1,12 +1,12 @@
 <script type="text/javascript" charset="utf-8">
   import HomeLoader from '../loaders/HomeLoader.svelte'
-  import { PlayIcon } from 'svelte-feather-icons'
+  import { PlayIcon, SearchIcon } from 'svelte-feather-icons'
 </script>
 
-<!--<HomeLoader  />-->
+<HomeLoader  />
 
 <main class="md:mt-0 md:px-60 ml-10 md:ml-0 px-10">
-  <section id="start" class="h-vh mt-10 max-h-[90vh] scroll-mt-10 text-onmain mx-auto flex flex-col rounded-t-lg mb-10">
+  <section id="start" class="h-vh mt-10 max-h-[100vh] scroll-mt-10 text-onmain mx-auto flex flex-col rounded-t-lg  mb-10">
     <div class="p-5 z-20 mx-auto font-header text-center">
       <h1>
         <span class="text-4xl">This is a</span>
@@ -77,44 +77,51 @@
       My specialty is the web and I have experience in other areas as well. But here I will touch only on what I am
       better.
     </p>
-    <h3 class="p-5 px-20 text-3xl overflow-y-scroll sm:hidden">My main tools and languages I've worked on so far:</h3>
-    <div class="px-20 text-3xl sm:hidden text-header md:py-5">
-      <div class="flex justify-center sm:hidden items-center md:visible flex-nowrap w-screen overflow-x-scroll">
-        
-        <i class="devicon-html5-plain">
-          <span class="px-5">HTML</span>
-        </i>
-        
-        <i class="devicon-css3-plain">
-          <span class="px-5">CSS</span>
-        </i>
-        
-        
-        <i class="devicon-javascript-plain">
-          <span class="px-5">JAVASCRIPT</span>
-        </i>
-        
-        
-        <i class="devicon-svelte-plain">
-          <span class="px-5">SVELTEJS</span>
-        </i>
-        
-        <i class="devicon-vuejs-plain">
-          <span class="px-5">VUEJS</span>
-        </i>
-        
-        <i class="devicon-nodejs-plain">
-          <span class="px-5">NODEJS</span>
-        </i>
-        
-      </div>
-    </div>
     <h3 class="p-5 mx-20 font-header text-3xl">What I do?</h3>
     <div class="px-20 overflow-y-scroll">
       <p class="">At the moment I'm just doing individual hands-on projects, or helping other devs build their tools. I
         don't have a permanent job, my income is varied and my time is versatile. I am looking to evolve more into the
         mobile or hybrid development environment, but the web is my home and I will not stop applying it.
       </p>
+    </div>
+  </section>
+    <section id="myknowledge"
+    class="shadow-[0_0_10px_black] scroll-mt-10 mt-10 bg-is-block md:bg-gradient-to-b from-is-block to-transparent text-onblock w-30 mx-auto w-full flex flex-col h-[100vh] rounded-t-lg text-center">
+    <h3 class="p-5 px-20 text-3xl overflow-y-scroll">My main tools and languages I've worked on so far:</h3>
+    <div class="px-20 text-3xl text-header md:py-5">
+      <div translate="no" class="flex justify-center items-center w-full flex-wrap sm:overflow-y-scroll">
+        
+        <i class="m-5 flex devicon-html5-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+html5"><SearchIcon size="15"/>HTML</a></span>
+        </i>
+         <i class="m-5 flex devicon-css3-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+css"><SearchIcon size="15"/>CSS</a></span>
+        </i>
+         <i class="m-5 flex devicon-javascript-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+javascript"><SearchIcon size="15"/>JAVASCRIPT</a></span>
+        </i>
+         <i class="m-5 flex devicon-svelte-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+sveltekit"><SearchIcon size="15"/>SVELTEKIT</a></span>
+        </i>
+         <i class="m-5 flex devicon-vuejs-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+vuejs"><SearchIcon size="15"/>VUEJS</a></span>
+        </i>
+         <i class="m-5 flex devicon-nodejs-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+nodejs"><SearchIcon size="15"/>NODEJS</a></span>
+        </i>
+         <i class="m-5 flex devicon-github-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+git+and+github"><SearchIcon size="15"/>GITHUB&GIT</a></span>
+        </i>
+                 <i class="m-5 flex devicon-bulma-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+bulmacss"><SearchIcon size="15"/>BULMA</a></span>
+        </i>
+         <i class="m-5 flex devicon-tailwindcss-plain">
+          <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck" href="https://www.google.com/search?q=what+is+tailwindcss"><SearchIcon size="15"/>TAILWIND</a></span>
+        </i>
+        
+        
+        
+      </div>
     </div>
   </section>
 </main>
