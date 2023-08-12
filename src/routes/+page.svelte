@@ -3,6 +3,8 @@
   import { PlayIcon, SearchIcon } from 'svelte-feather-icons'
 </script>
 
+
+
 <HomeLoader  />
 
 <main class="md:mt-0 md:px-60 ml-10 md:ml-0 px-10">
