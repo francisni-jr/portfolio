@@ -9,13 +9,13 @@ module.exports = ({
 	theme: {
 	  colors: {
       'is-main': '#6E44FF',
-      'is-block': '#EFD9CE',
+      'is-block': '#FB8B24',
       'is-action': '#FFDD00',
       'is-success': '#20C9A2',
       'is-error': '#D20F46',
       'is-warn': '#D95030',
       'onmain': "#F8F32B",
-      'onblock': "#13262B",
+      'onblock': "#FEFAE0",
       'onaction': "#20C9A2",
     },
     fontFamily: {
@@ -42,4 +42,6 @@ module.exports = ({
 	},
 
 	plugins: [typography, rippleui]
-});
+}); 
+
+ 

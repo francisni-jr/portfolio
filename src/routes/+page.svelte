@@ -3,7 +3,9 @@
   import { PlayIcon, SearchIcon } from 'svelte-feather-icons'
 </script>
 
-
+<svelte:head>
+  <title>Welcome to my Portfolio</title>
+</svelte:head>
 
 <HomeLoader  />
 
