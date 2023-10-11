@@ -28,6 +28,7 @@
 		"konsta": "^2.0.0",
 		"rippleui": "^1.12.1",
 		"svelte-feather-icons": "^4.0.1",
+		"tailwindcss-animated": "^1.0.1",
 		"yesvelte": "^0.0.2-next.201"
 	}
 }

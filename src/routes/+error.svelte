@@ -2,32 +2,15 @@
   import { ArrowDownIcon } from 'svelte-feather-icons'
 </script>
 
-<section class=" overflow-y-scroll  bg-gradient-to-r from-is-main from-40% md:from-30% to-is-error w-screen h-full ml-5 shadow-[-10px_10px_50px_black] sm:rounded-bl-[50vh] md:ml-0 flex justify-start items-center text-4xl px-60 font-header w-full bg-blend-darken flex-col">
-  <h1 class="text-is-onmain flex flex-col text-center mt-60">
-    <span class="flex gap-10 flex-col font-highlight">
-      <b class="text-5xl" >4</b>
-      <b class="text-5xl"  >0</b>
-      <b class="text-5xl" >4</b>
-      <span>-</span>
-      <span class="text-5xl"  >I</span>
-      <span class="text-5xl"  >said</span>
-      <span>-</span>
-      <b class="text-5xl"  >4</b>
-      <b class="text-5xl"  >0</b>
-      <b class="text-5xl"  >4</b>
-      <b class="py-5 flex justify-center">
-        <ArrowDownIcon/>
-      </b>
-      <b class="py-5 flex justify-center">
-        <ArrowDownIcon/>
-      </b>
-      <b class="py-5 flex justify-center">
-        <ArrowDownIcon/>
-      </b>
-      
+<section class=" m-30  w-screen h-full ml-5 md:ml-0 flex justify-start items-center text-4xl px-60 font-header w-full bg-blend-darken overflow-hidden flex-col">
+  <h1 class="text-is-error flex text-center mt-60">
+    <span class="flex gap-10 p-5 font-highlight">
+      <b class="text-xl" >4</b>
+      <b class="text-xl"  >0</b>
+      <b class="text-xl" >4</b>
     </span>
   </h1>
-  <h2 class="text-is-onmain flex flex-col text-center mb-120">
+  <h2 class="text-is-onmain text-sm flex flex-col text-center mb-120">
     <p>Unfortunately you have reached the end of this universe. You can browse the menus at the top and left of this page, there are the main existing pages. So, browse through the main existing pages or <br />
     </p>
     <a class="text-onaction border max-w-10 p-5 mt-5 rounded" href="/">

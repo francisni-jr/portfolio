@@ -14,7 +14,7 @@
         >
         <GridIcon size="60" class="p-5" />
       </label>
-      <div class="popover-content shadow-xl h-60 overflow-y-scroll mx-5 mt-30 absolute popover-right z-50 bg-is-block p-5 rounded-tl-lg">
+      <div class="popover-content  shadow-xl h-60 overflow-y-scroll mx-5 mt-30 absolute popover-right z-50 bg-is-block p-5 rounded-tl-lg">
         <div class="text-sm">
           <p class="text-is-warn border p-5 rounded ">
             <b class="">INFO</b>
@@ -43,6 +43,12 @@
         </div>
       </div>
     </nav>
+    <div class="brand absolute top-0 right-0 drop-shadow-xl m-[5px] mx-auto">
+        <div class="mx-auto h-25 w-25">
+          <img src="https://res.cloudinary.com/dt2se4cle/image/upload/v1696983171/brand_unic_png_plyt5u.png"
+            alt="avatar" />
+        </div>
+    </div>
   <aside class="fixed top-20 w-5 md:w-25 flex justify-center items-center md:h-full h-screen bg-transparent flex flex-col gap-5 px-10 md:px-25">
     <p style="padding:8px;" class="">
       <a class="text-onaction" href="/#start">
@@ -85,37 +91,17 @@
     </ol>
   </aside>
   <slot />
-  <footer class="p-5 bg-is-main fixed bottom-0 right-0 flex flex-col justify-center items-center gap-5 border md:w-25 w-20 mx-5 md:mx-20 border-yellow ">
+  <footer class="p-5 bg-building fixed bottom-0 right-0 flex flex-col justify-center items-center gap-5 md:w-25 w-20 mx-5 md:mx-20">
     <a class="text-onaction" href="https://github.com/francisni-jr">
       <GithubIcon size="30" class="" />
     </a>
     <a class="text-onaction" href="https://instagram.com/">
       <InstagramIcon size="30" class="" />
     </a>
-    <p class="flex justify-center items-center">
-      <details translate="no" class="flex flex-col justify-center items-center" >
-        <summary>
-          &copy
-        </summary>
-        <div class="flex flex-col justify-center items-center my-5">
-        <span>F</span>
-        <span>R</span>
-        <span>A</span>
-        <span>N</span>
-        <span>C</span>
-        <span>I</span>
-        <span>S</span>
-        <span>N</span>
-        <span>Í</span>
-        </div>
-                <span class="mx-auto border-t w-full"></span>
-                <div class="flex flex-col justify-center items-center my-5">
-        <span>2</span>
-        <span>0</span>
-        <span>2</span>
-        <span>3</span>
-        </div>
-      </details>
-    </p>
+    <div class="flex justify-center items-center">
+      <span class="tooltip tooltip-left" data-tooltip="FRANCISNÍ - 2023">
+	<button class="text-onaction">&copy</button>
+</span>
+    </div>
   </footer>
 </div>

@@ -1,5 +1,7 @@
 const typography = require('@tailwindcss/typography');
 const rippleui = require('rippleui');
+const tailanim = require('tailwindcss-animated')
+
 
 module.exports = ({
   content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -17,6 +19,7 @@ module.exports = ({
       'onmain': "#F8F32B",
       'onblock': "#FEFAE0",
       'onaction': "#20C9A2",
+      'building': "#273036",
     },
     fontFamily: {
       header: ['Delius Unicase', 'Serif'],
@@ -41,7 +44,7 @@ module.exports = ({
 		}
 	},
 
-	plugins: [typography, rippleui]
+	plugins: [typography, rippleui, tailanim]
 }); 
 
  
