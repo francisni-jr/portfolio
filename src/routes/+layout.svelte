@@ -31,7 +31,7 @@
               <a class="" href="/#aboutme">/#aboutme</a>
             </li>
             <li style="word-wrap: break-word;" class="w-full rounded p-5 bg-is-action mt-5 text-onaction">
-              <a class="" href="/#myexperience">/#myexperience</a>
+              <a class="" href="/#mycurriculum">/#mycurriculum</a>
             </li>
             <li style="word-wrap: break-word;" class="w-full rounded p-5 bg-is-action mt-5 text-onaction">
               <a class="" href="/myprojects">/myprojects</a>
@@ -73,12 +73,12 @@
         <span class=" text-sm">About Me</span>
       </li>
       <li class="step">
-        <a href="/#myexperience">
+        <a href="/#mycurriculum">
           <div class="step-circle w-auto hover:shadow-[0_0_40px_yellow] bg-is-action text-onaction">
             <HashIcon size="20" />
           </div>
         </a>
-        <span class="text-sm text-center">My <br class="md:hidden" /> Experience</span>
+        <span class="text-sm text-center">My <br class="md:hidden" /> Curriculum</span>
       </li>
             <li class="step">
         <a href="/#myknowledge">
@@ -91,17 +91,17 @@
     </ol>
   </aside>
   <slot />
-  <footer class="p-5 bg-building fixed bottom-0 right-0 flex flex-col justify-center items-center gap-5 md:w-25 w-20 mx-5 md:mx-20">
-    <a class="text-onaction" href="https://github.com/francisni-jr">
-      <GithubIcon size="30" class="" />
-    </a>
-    <a class="text-onaction" href="https://instagram.com/">
-      <InstagramIcon size="30" class="" />
-    </a>
-    <div class="flex justify-center items-center">
-      <span class="tooltip tooltip-left" data-tooltip="FRANCISNÍ - 2023">
-	<button class="text-onaction">&copy</button>
-</span>
-    </div>
-  </footer>
+<!--  <footer class="p-5 bg-building fixed bottom-0 right-0 z-40 flex flex-col justify-center items-center gap-5 md:w-25 w-20 mx-5 mb-10 md:mx-20">-->
+<!--    <a class="text-onaction" href="https://github.com/francisni-jr">-->
+<!--      <GithubIcon size="30" class="" />-->
+<!--    </a>-->
+<!--    <a class="text-onaction" href="https://instagram.com/">-->
+<!--      <InstagramIcon size="30" class="" />-->
+<!--    </a>-->
+<!--    <div class="flex justify-center items-center">-->
+<!--      <span class="tooltip tooltip-left" data-tooltip="FRANCISNÍ - 2023">-->
+<!--	<button class="text-onaction">&copy</button>-->
+<!--</span>-->
+<!--    </div>-->
+<!--  </footer>-->
 </div>
