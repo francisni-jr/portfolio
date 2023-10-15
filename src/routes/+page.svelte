@@ -182,7 +182,12 @@
     </svg>
     
     
-    Comming soon...
+    <figure class="p-10 z-30 md:py-20 lg:p-20 h-full flex justify-center items-start" >
+      <img class="w-full h-auto shadow-lg border border-building border-4 rounded-xl"
+      src="https://res.cloudinary.com/dt2se4cle/image/upload/v1697387557/cv_gomqqk.png"
+      alt="" />
+      
+    </figure>
     
   </section>
   <section id="myknowledge"
@@ -208,8 +213,8 @@
         d="M0,256L0,224L49.7,224L49.7,192L99.3,192L99.3,32L149,32L149,128L198.6,128L198.6,192L248.3,192L248.3,160L297.9,160L297.9,192L347.6,192L347.6,32L397.2,32L397.2,288L446.9,288L446.9,192L496.6,192L496.6,192L546.2,192L546.2,224L595.9,224L595.9,256L645.5,256L645.5,224L695.2,224L695.2,96L744.8,96L744.8,128L794.5,128L794.5,96L844.1,96L844.1,256L893.8,256L893.8,288L943.4,288L943.4,32L993.1,32L993.1,320L1042.8,320L1042.8,96L1092.4,96L1092.4,96L1142.1,96L1142.1,96L1191.7,96L1191.7,160L1241.4,160L1241.4,256L1291,256L1291,224L1340.7,224L1340.7,64L1390.3,64L1390.3,128L1440,128L1440,320L1390.3,320L1390.3,320L1340.7,320L1340.7,320L1291,320L1291,320L1241.4,320L1241.4,320L1191.7,320L1191.7,320L1142.1,320L1142.1,320L1092.4,320L1092.4,320L1042.8,320L1042.8,320L993.1,320L993.1,320L943.4,320L943.4,320L893.8,320L893.8,320L844.1,320L844.1,320L794.5,320L794.5,320L744.8,320L744.8,320L695.2,320L695.2,320L645.5,320L645.5,320L595.9,320L595.9,320L546.2,320L546.2,320L496.6,320L496.6,320L446.9,320L446.9,320L397.2,320L397.2,320L347.6,320L347.6,320L297.9,320L297.9,320L248.3,320L248.3,320L198.6,320L198.6,320L149,320L149,320L99.3,320L99.3,320L49.7,320L49.7,320L0,320L0,320Z">
       </path>
     </svg>
-    <div class="px-20 my-auto text-3xl text-header md:py-5">
-      <div translate="no" class="flex justify-center items-center w-full flex-wrap sm:overflow-y-scroll">
+    <div class="px-20 mt-10 text-3xl text-header md:py-5">
+      <div translate="no" class="flex justify-center items-start w-full flex-wrap">
         
         <i class="m-5 flex devicon-html5-plain">
           <span class="px-5"><a class="flex text-onaction items-center justify-center gap-px" target="_blanck"

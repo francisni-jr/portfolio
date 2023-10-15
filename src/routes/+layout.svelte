@@ -78,7 +78,7 @@
             <HashIcon size="20" />
           </div>
         </a>
-        <span class="text-sm text-center">My <br class="md:hidden" /> Curriculum</span>
+        <span class="text-sm text-center">My <br class="md:hidden" />CV</span>
       </li>
             <li class="step">
         <a href="/#myknowledge">
